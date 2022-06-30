@@ -1,0 +1,322 @@
+nav{
+    background-color: rgb(29, 25, 25);
+}
+nav .container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: red;
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: white;
+    transition: .5s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#intro{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/kucing8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+.intro{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 45px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+h4{
+    color: rgb(227, 124, 124);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.introV2 form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.introV2 form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+.introV2 form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+#about{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: rgb(32, 29, 29);
+}
+#about img{
+    height: auto;
+    width: 430px;
+}
+.text-about{
+    width: 500px;
+}
+.isiabout{
+    width: 1120px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-about h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text-about h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.text-about p{
+    color: rgb(222, 102, 94);
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.text-about button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.text-about button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+#project{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 40px 0px;
+}
+.judul-project h2{
+    color: white;
+    font-size: 60px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+.kotak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+.cardV2{
+    height: 240px;
+    width: 435px;
+    padding: 10px 20px;
+    background: rgb(74, 67, 67);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.cardV2 img{
+    height: auto;
+    width: 250px;
+}
+.title p{
+    color: rgb(185, 153, 165);
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: bold;
+}
+#blogs{
+    background: rgb(32, 30, 30);
+    width: 100%;
+    padding: 40px 0px;
+}
+.judul-blogs h2{
+    color: white;
+    font-size: 60px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.card{
+    height: 460px;
+    width: 435px;
+    padding: 10px 20px;
+    background: rgb(74, 67, 67);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card img{
+    height: auto;
+    width: 250px;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.paragraf p{
+    color: rgb(173, 72, 109);
+    font-size: 16px;
+    line-height: 23px;
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orangered;
+    border-radius: 50%;
+    margin: 20px 10px;
+    color: white;
+    text-decoration: none;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .4s;
+}
+.end{
+    position: absolute;
+    color: red;
+    bottom: 10px;
+    font-size: 15px;
+}
+.jumbotron {
+    padding-top: 6rem;
+    color: white;
+}
+.display-5{
+    font-weight: bold;
+    color: black;
+}
+.cardV3{
+    
+    padding: 20px 35px;
+    background: rgb(74, 67, 67);
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+.cardV3 table{
+    justify-content: center;
+}
